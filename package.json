@@ -1,0 +1,54 @@
+{
+	"name": "ux",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"buildCSS": "postcss css/tailwind.css -o public/build/tailwind.css --minify",
+		"watchCSS": "postcss css/tailwind.css -o public/build/tailwind.css --watch",
+		"devBundle": "rm -rf dist && rm -rf .parcel-cache && parcel serve --public-url /mass_effect_test/ --host localhost",
+		"buildBundle": "rm -rf dist && rm -rf .parcel-cache && npm run buildCSS && parcel build --public-url /mass_effect_test/"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@popperjs/core": "^2.11.8",
+		"leader-line": "^1.0.7",
+		"mathjs": "^13.2.0",
+		"pinia": "^2.3.0",
+		"postcss-cli": "^11.0.0",
+		"postcss-import": "^16.1.0",
+		"ts-loader": "^9.5.1",
+		"vue": "^3.5.12",
+		"vue-router": "^4.5.0"
+	},
+	"devDependencies": {
+		"@parcel/transformer-vue": "^2.12.0",
+		"@tailwindcss/forms": "^0.5.7",
+		"@tailwindcss/typography": "^0.5.15",
+		"@vue/compiler-sfc": "^3.5.12",
+		"@vue/runtime-core": "^3.5.12",
+		"@vue/runtime-dom": "^3.5.12",
+		"autoprefixer": "^10.4.19",
+		"axe-core": "^4.10.2",
+		"mocha": "^11.0.1",
+		"pa11y": "^8.0.0",
+		"parcel": "^2.12.0",
+		"postcss": "^8.4.39",
+		"prettier": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.5.14",
+		"sharp": "^0.33.5",
+		"tailwindcss": "^3.4.14",
+		"typescript": "^5.6.3"
+	},
+	"prettier": {
+		"plugins": [
+			"prettier-plugin-tailwindcss"
+		]
+	},
+	"browserslist": "fully supports css-grid",
+	"targets": {
+		"frontend": {
+			"source": "./public/index.html"
+		}
+	}
+}

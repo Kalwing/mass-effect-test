@@ -1,0 +1,470 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"text": "You’re invited to a party. How do you approach it?",
+			"options": [
+				{
+					"text": "Keep an eye on the exits and watch people's movements—better safe than sorry.",
+					"related_weights": [1, 0.2, 0.4, 0.6]
+				},
+				{
+					"text": "Be the center of attention, telling epic stories and cracking jokes.",
+					"related_weights": [0.2, 1, 0.4, 0]
+				},
+				{
+					"text": "Discuss deep topics with a few people away from the noise.",
+					"related_weights": [0.4, 0.4, 1, 0.5]
+				},
+				{
+					"text": "Observe quietly, analyze the dynamics, and blend into the background.",
+					"related_weights": [0.6, 0, 0.5, 1]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"text": "How do you handle authority figures?",
+			"options": [
+				{ "text": "Respectfully, as long as they earn it.", "related_weights": [1, 0.7, 0.6, 0.2] },
+				{ "text": "Challenge them if they seem unfit.", "related_weights": [0.7, 1, 0.1, 0.3] },
+				{ "text": "Follow their lead without much fuss.", "related_weights": [0.6, 0.1, 1, 0] },
+				{ "text": "Avoid them unless absolutely necessary.", "related_weights": [0.2, 0.3, 0, 1] }
+			]
+		},
+		{
+			"id": 3,
+			"text": "Your team is facing a tough challenge at work. What’s your approach?",
+			"options": [
+				{
+					"text": "Work together to brainstorm a creative solution.",
+					"related_weights": [1, 0.5, 0.1, 0]
+				},
+				{
+					"text": "Take charge and assign tasks based on strengths.",
+					"related_weights": [0.5, 1, 0.5, 0.3]
+				},
+				{
+					"text": "Handle it yourself—it’s easier that way.",
+					"related_weights": [0.1, 0.5, 1, 0.5]
+				},
+				{
+					"text": "Push through it quickly, focusing on the essentials.",
+					"related_weights": [0, 0.3, 0.5, 1]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"text": "You’re tasked with planning a large event. How do you handle it?",
+			"options": [
+				{
+					"text": "Create a detailed plan and split tasks between yourself and others.",
+					"related_weights": [1, 0.7, 0.1, 0.6]
+				},
+				{
+					"text": "Focus on the big picture and trust others to handle the details.",
+					"related_weights": [0.7, 1, 0, 0.8]
+				},
+				{
+					"text": "Assign all the tasks to yourself to ensure quality.",
+					"related_weights": [0.1, 0, 1, 0]
+				},
+				{ "text": "Outsource the work and supervise.", "related_weights": [0.6, 0.8, 0, 1] }
+			]
+		},
+		{
+			"id": 5,
+			"text": "A friend is going through a tough time. What do you do?",
+			"options": [
+				{
+					"text": "Offer emotional support and be there for them.",
+					"related_weights": [1, 0.5, 0.2, 0.5]
+				},
+				{
+					"text": "Help them by solving their problem practically.",
+					"related_weights": [0.5, 1, 0.1, 0.7]
+				},
+				{
+					"text": "Give them space but check in occasionally.",
+					"related_weights": [0.2, 0.1, 1, 0.1]
+				},
+				{ "text": "Distract them with humor or activities.", "related_weights": [0.5, 0.7, 0.1, 1] }
+			]
+		},
+		{
+			"id": 6,
+			"text": "When you have a big decision to make, how do you feel about taking risks?",
+			"options": [
+				{
+					"text": "I avoid risks and prefer safe, predictable choices.",
+					"related_weights": [1, 0.4, 0.1, 0]
+				},
+				{
+					"text": "I take calculated risks when there’s a good chance of success.",
+					"related_weights": [0.4, 1, 0.5, 0.3]
+				},
+				{
+					"text": "I weigh the pros and cons, but I’m willing to take significant risks.",
+					"related_weights": [0.1, 0.5, 1, 0.7]
+				},
+				{
+					"text": "I embrace risk without hesitation—what’s life without a little adventure?",
+					"related_weights": [0, 0.3, 0.7, 1]
+				}
+			]
+		},
+		{
+			"id": 7,
+			"text": "You’re in a dangerous situation. What’s your first instinct?",
+			"options": [
+				{ "text": "Protect others, even at personal risk.", "related_weights": [1, 0.1, 0.3, 0] },
+				{
+					"text": "Neutralize the threat as quickly as possible.",
+					"related_weights": [0.1, 1, 0.1, 0]
+				},
+				{ "text": "Assess the situation before acting.", "related_weights": [0.3, 0.1, 1, 0.8] },
+				{
+					"text": "Escape or find cover while planning your next move.",
+					"related_weights": [0, 0, 0.8, 1]
+				}
+			]
+		},
+		{
+			"id": 8,
+			"text": "What’s your ideal way to recharge after a long day?",
+			"options": [
+				{
+					"text": "Reading, daydreaming, or exploring new ideas mentally.",
+					"related_weights": [2, 0.4, 0, 1]
+				},
+				{
+					"text": "Diving into an exciting or active project.",
+					"related_weights": [0.4, 2, 0, 0.4]
+				},
+				{
+					"text": "Going out or talking with close friends for social interaction.",
+					"related_weights": [0, 0, 2, 1.4]
+				},
+				{
+					"text": "Spending quiet time alone to reflect or engage in a personal hobby.",
+					"related_weights": [1, 0.4, 1.4, 2]
+				}
+			]
+		},
+		{
+			"id": 9,
+			"text": "When faced with a challenging problem, how do you react?",
+			"options": [
+				{ "text": "Dive right in and improvise as you go.", "related_weights": [1, 0, 0.1, 0] },
+				{
+					"text": "Analyze all possible solutions before making a move.",
+					"related_weights": [0, 1, 0.4, 0.7]
+				},
+				{
+					"text": "Involve everyone and collaborate to find the best approach.",
+					"related_weights": [0.1, 0.4, 1, 0.3]
+				},
+				{
+					"text": "Take a break to clear your head before tackling it calmly.",
+					"related_weights": [0, 0.7, 0.3, 1]
+				}
+			]
+		},
+		{
+			"id": 10,
+			"text": "If you had unlimited time and resources, what skill would you master?",
+			"options": [
+				{ "text": "Diplomacy or negotiation.", "related_weights": [1, 0.4, 0, 0.2] },
+				{ "text": "Combat or self-defense.", "related_weights": [0.4, 1, 0.2, 0] },
+				{ "text": "Technology or engineering.", "related_weights": [0, 0.2, 1, 0.5] },
+				{ "text": "Artistic or creative expression.", "related_weights": [0.2, 0, 0.5, 1] }
+			]
+		},
+		{
+			"id": 11,
+			"text": "How do you respond to a moral dilemma?",
+			"options": [
+				{
+					"text": "Choose the option that benefits the most people.",
+					"related_weights": [1, 0, 0.3, 0.1]
+				},
+				{ "text": "Go with what feels right in the moment.", "related_weights": [0, 1, 0, 0.4] },
+				{
+					"text": "Stick to your principles, no matter what.",
+					"related_weights": [0.3, 0, 1, 0.6]
+				},
+				{
+					"text": "Prioritize what keeps you or your team safe.",
+					"related_weights": [0.1, 0.4, 0.6, 1]
+				}
+			]
+		},
+		{
+			"id": 12,
+			"text": "You’re alone and need to handle multiple tasks simultaneously. What’s your strategy?",
+			"options": [
+				{
+					"text": "Focus on one task at a time and resolve them methodically.",
+					"related_weights": [1, 0, 0.2, 0.5]
+				},
+				{ "text": "Jump into action, adapting as needed.", "related_weights": [0, 1, 0, 0] },
+				{
+					"text": "Call someone to delegate, ensuring efficiency and quality.",
+					"related_weights": [0.2, 0, 1, 0.2]
+				},
+				{
+					"text": "Prioritize and manage all tasks with a clear, structured plan.",
+					"related_weights": [0.5, 0, 0.2, 1]
+				}
+			]
+		},
+		{
+			"id": 13,
+			"text": "If you had to choose a weapon or tool for a mission, what would you prioritize?",
+			"options": [
+				{
+					"text": "Something versatile that adapts to many situations.",
+					"related_weights": [1, 0.4, 0.4, 0.2]
+				},
+				{ "text": "Advanced technology for efficiency.", "related_weights": [0.4, 1, 0.2, 0.1] },
+				{
+					"text": "Whatever’s available, as long as it gets the job done.",
+					"related_weights": [0.4, 0.2, 1, 0.1]
+				},
+				{
+					"text": "Equipment that reflects your personal style, even if it’s not the most effective.",
+					"related_weights": [0.2, 0.1, 0.1, 1]
+				}
+			]
+		},
+		{
+			"id": 14,
+			"text": "What kind of person are you most attracted to romantically?",
+			"options": [
+				{
+					"text": "Someone who challenges me and keeps me on my toes.",
+					"related_weights": [1, 0.1, 0.5, 0]
+				},
+				{ "text": "Someone dependable and supportive.", "related_weights": [0.1, 1, 0.1, 0.7] },
+				{ "text": "Someone intriguing and mysterious.", "related_weights": [0.5, 0.1, 1, 0.1] },
+				{ "text": "Someone warm and empathetic.", "related_weights": [0, 0.7, 0.1, 1] }
+			]
+		},
+		{
+			"id": 15,
+			"text": "A person at a party is acting confident but spreading misinformation. How do you respond?",
+			"options": [
+				{ "text": "Correct them publicly.", "related_weights": [1, 0, 0.3, 0.6] },
+				{ "text": "Let them talk; it’s not your problem.", "related_weights": [0, 1, 0.1, 0] },
+				{ "text": "Speak with them privately later.", "related_weights": [0.3, 0.1, 1, 0.3] },
+				{
+					"text": "Use humor to subtly point out the flaws in their statement.",
+					"related_weights": [0.6, 0, 0.3, 1]
+				}
+			]
+		},
+		{
+			"id": 16,
+			"text": "You’re offered a unique career opportunity or adventure. What do you do?",
+			"options": [
+				{
+					"text": "Jump in immediately—it’s a once-in-a-lifetime chance.",
+					"related_weights": [1, 0, 0.4, 0]
+				},
+				{
+					"text": "Take a little time to reflect and ensure it’s the right move.",
+					"related_weights": [0, 1, 0, 0.8]
+				},
+				{
+					"text": "Seek advice from trusted people but make the final call yourself.",
+					"related_weights": [0.4, 0, 1, 0.6]
+				},
+				{
+					"text": "Do thorough research before diving into something unknown.",
+					"related_weights": [0, 0.8, 0.6, 1]
+				}
+			]
+		},
+		{
+			"id": 17,
+			"text": "What’s your ideal kind of trip?",
+			"options": [
+				{
+					"text": "Exploring a distant city and uncovering its secrets.",
+					"related_weights": [1, 0, 0.8, 0.1]
+				},
+				{
+					"text": "Escaping to nature for solitude and reflection.",
+					"related_weights": [0, 1, 0.4, 0]
+				},
+				{
+					"text": "Do something utterly unique and extraordinary.",
+					"related_weights": [0.8, 0.4, 1, 0.1]
+				},
+				{
+					"text": "Shopping, first-class travel, and luxury experiences.",
+					"related_weights": [0.1, 0, 0.1, 1]
+				}
+			]
+		},
+		{
+			"id": 18,
+			"text": "During a long road trip, what do you listen to?",
+			"options": [
+				{
+					"text": "Upbeat, energetic music (rock, electronic).",
+					"related_weights": [1, 0.1, 0.8, 0]
+				},
+				{
+					"text": "Calming or instrumental tracks for reflection.",
+					"related_weights": [0.1, 1, 0.1, 0.4]
+				},
+				{ "text": "Pop hits for fun and energy.", "related_weights": [0.8, 0.1, 1, 0] },
+				{
+					"text": "Podcasts or audiobooks to learn something new.",
+					"related_weights": [0, 0.4, 0, 1]
+				}
+			]
+		},
+		{
+			"id": 19,
+			"text": "If a friend asks for help moving, what’s your response?",
+			"options": [
+				{ "text": "“I’ll bring my muscles and some pizza!”", "related_weights": [1, 0.2, 0, 0.8] },
+				{
+					"text": "“I can help organize but don’t expect heavy lifting.”",
+					"related_weights": [0.2, 1, 0.1, 0.4]
+				},
+				{
+					"text": "“Sorry, I’m busy this weekend—good luck!”",
+					"related_weights": [0, 0.1, 1, 0.2]
+				},
+				{
+					"text": "“I’ll come, but only if we have an epic playlist.”",
+					"related_weights": [0.8, 0.4, 0.2, 1]
+				}
+			]
+		},
+		{
+			"id": 20,
+			"text": "What motivates you most in life?",
+			"options": [
+				{ "text": "Duty and responsibility.", "related_weights": [2, 0.4, 1, 0] },
+				{ "text": "Personal growth and discovery.", "related_weights": [0.4, 2, 0, 1.2] },
+				{ "text": "Helping or protecting others.", "related_weights": [1, 0, 2, 0] },
+				{ "text": "Freedom and independence.", "related_weights": [0, 1.2, 0, 2] }
+			]
+		},
+		{
+			"id": 21,
+			"text": "How do you prefer to approach your daily schedule?",
+			"options": [
+				{
+					"text": "Plan it out in advance with a clear structure and timelines.",
+					"related_weights": [2, 0, 1, 0.4]
+				},
+				{
+					"text": "Go with the flow, adapting to opportunities as they arise.",
+					"related_weights": [0, 2, 1, 0]
+				},
+				{
+					"text": "Have a loose plan but leave room for spontaneity.",
+					"related_weights": [1, 1, 2, 0.4]
+				},
+				{
+					"text": "Follow established habits and routines without much variation.",
+					"related_weights": [0.4, 0, 0.4, 2]
+				}
+			]
+		},
+		{
+			"id": 22,
+			"text": "When working on a group project, what role suits you best?",
+			"options": [
+				{
+					"text": "The planner, organizing tasks and making sure everything stays on track.",
+					"related_weights": [2, 0, 1, 0]
+				},
+				{
+					"text": "The creative thinker, generating innovative ideas and solving problems.",
+					"related_weights": [0, 2, 0.6, 1.2]
+				},
+				{
+					"text": "The leader, making decisions and motivating the group to success.",
+					"related_weights": [1, 0.6, 2, 0]
+				},
+				{
+					"text": "The supporter, contributing quietly and helping where needed.",
+					"related_weights": [0, 1.2, 0, 2]
+				}
+			]
+		},
+		{
+			"id": 23,
+			"text": "What excites you more when approaching a new experience?",
+			"options": [
+				{
+					"text": "Learning the details, rules, or history behind it.",
+					"related_weights": [2, 0, 0, 0.4]
+				},
+				{
+					"text": "Jumping in and seeing what happens as you go.",
+					"related_weights": [0, 2, 0.4, 0]
+				},
+				{
+					"text": "Exploring its potential to connect with people or spark emotions.",
+					"related_weights": [0, 0.4, 2, 0.4]
+				},
+				{
+					"text": "Understanding how it can be improved or how it relates to a bigger picture.",
+					"related_weights": [0.4, 0, 0.4, 2]
+				}
+			]
+		},
+		{
+			"id": 24,
+			"text": "How do you handle unexpected changes to a plan?",
+			"options": [
+				{
+					"text": "Adapt quickly and find a way to make it work.",
+					"related_weights": [2, 0, 1, 0]
+				},
+				{
+					"text": "Feel frustrated but find a solution after some thought.",
+					"related_weights": [0, 2, 0, 1]
+				},
+				{
+					"text": "Welcome the change—it keeps things interesting.",
+					"related_weights": [1, 0, 2, 0]
+				},
+				{
+					"text": "Prefer to stick to the original plan whenever possible.",
+					"related_weights": [0, 1, 0, 2]
+				}
+			]
+		},
+		{
+			"id": 25,
+			"text": "What drives your curiosity the most in new situations?",
+			"options": [
+				{
+					"text": "Understanding how things work or uncovering hidden patterns.",
+					"related_weights": [2, 0.2, 1, 1.2]
+				},
+				{
+					"text": "Experiencing the sights, sounds, and sensations firsthand.",
+					"related_weights": [0.2, 2, 0, 0]
+				},
+				{
+					"text": "Exploring how it can impact people or relationships.",
+					"related_weights": [1, 0, 2, 1]
+				},
+				{
+					"text": "Seeing how it fits into a broader context or system.",
+					"related_weights": [1.2, 0, 1, 2]
+				}
+			]
+		}
+	]
+}

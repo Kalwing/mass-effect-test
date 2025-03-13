@@ -1,0 +1,80 @@
+Using this, define 15 question to find a character, a battle type and a romance you're closest to. The question must be like the one you asked me : Inspired by real life situation. They must be single choice question. For each question, tell me what's measured.
+You must discriminate between:
+Shepard, Liara, Jack, Grunt, Kasumi, Jacob, Miranda, Garrus, Thane, Wrex, Legion, Kaidan, Ashley, James, Traynor, Cortez, Gabriella Daniels, Kenneth Donnely, Joker, Mordin, EDI, Samara, Zaeed, Tali, Javik, David Anderson, Cortez, Chakwas, Hackett, , the Illusive man, Udina, Aria TLoak
+
+---
+
+Give me the answers that should be given to get Liara, and Jack personalities for each question.
+Give which answer should be given to get them as a romance result (ie. which answers would pair wells with their personality).
+Note that they should not be paired with themselves for romance. For example, jack is matched with paragon shepard : someone understanding and who can defuse the situation, Garrus is matched with a Tali type personality, paragon shepard is matched with Liara, Kenneth with Gabriella, Wrex with Eve Urdnot, Kasumi with Jacob, Joker with EDI, Anderson with Kahlee Sanders, Samara with Paragon shepard, the illusive man with himself, Grunt with someone like him,fun, Traynor with EDI, etc...
+
+Give your result in this form:
+
+# paragon shepard
+
+A description of their personality in a few line, and their MBTI
+
+## Answers:
+
+_short reasoning for each answer to each question_
+personality results: 4,1,1,1,1,2,1,2,3,1,2,4,1,1,3,2,1,4,1,4,1,1,1,1
+
+## Romance:
+
+1. _what they are attracted to in a few lines_
+2. answer that would attract them romantically, 1, 2, 4, 3, 2, 3, 2, 3, 1, 2, 3, 3, 3, 1, 3, 1, 3, 1, 1, 4, 2, 3, 2, 3,
+
+---
+
+I selected answers that a character would like their romantic partner to have. For example, EDI would want those answer to match Joker.
+
+Given the following prompt, ensure the answers are correct:
+
+The format is the following:
+
+# Name
+
+Description of what the character is looking for in a partner
+
+[id of the answers the character would seek from a romance partner] -> what I want you to verify
+
+
+
+Here's the first two:
+
+Paragon:
+
+Shepard pairs well with someone with resilience and a moral compass. Someone in need of the understanding and stability shepard can bring to the relationship. They appreciate partners who are supportive but strong enough to challenge them constructively.
+
+2, 1, 1, 2, 4, 2, 1, 3, 3, 4, 1, 4, 1, 2, 4, 2, 3, 3, 1, 2, 3, 2, 2, 3, 2
+
+
+Renegade:
+
+Shepard pairs well with someone with depth, wisdom, and warmth, who can balance their intensity and ambition.
+
+3, 3, 2, 3, 1, 1, 3, 4, 2, 1, 3, 1, 2, 1, 3, 4, 2, 2, 2, 3, 3, 4, 3, 3, 3
+
+
+
+Does the answer match with the description ? explain why, and give the key answer/question (and question number) used to reach this conclusion.
+
+The format will be :
+
+Name
+
+General answer
+
+For all questions where the answer needs to be changed :
+
+*Question X : Answer and answer id
+
+*Question X1 : ...
+
+* ...
+
+Which question are the most important for the character :
+
+question x ..., question x ...., question x ...
+
+Which questions are less important

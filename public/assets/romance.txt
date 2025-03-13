@@ -1,0 +1,99 @@
+Paragon
+2,1,1,2,4,2,1,3,3,4,1,4,1,1,4,2,3,3,1,2
+renegade
+3,3,2,3,1,1,3,4,2,1,3,1,2,4,3,4,2,2,2,3
+Liara
+4,1,1,1,1,2,3,1,2,1,3,4,1,4,3,4,1,2,1,1
+Jack
+3,1,1,1,1,2,1,1,2,1,3,1,1,4,1,2,2,1,1,3
+Wrex
+4,1,1,3,1,3,3,3,3,4,4,3,1,2,4,3,3,4,3,3
+Garrus
+4,1,1,2,1,1,3,1,4,4,3,1,2,2,3,4,3,4,4,4
+
+Grunt
+2, 2, 1, 2, 4, 2, 3, 2, 3, 4, 4, 2, 4, 1, 4, 3, 1, 3, 4, 4
+Thane
+3, 1, 1, 2, 1, 3, 4, 1, 2, 4, 1, 4, 2, 3, 1, 1, 2, 3, 1, 1
+
+--- not tested
+Kasumi
+3,1,1,2,2,2,1,2,3,2,2,1,1,4,3,2,2,2,1,1
+Jacob
+4,2,1,2,3,3,1,4,2,3,3,4,1,3,4,4,3,2,2,2
+Miranda
+3,1,1,2,1,2,3,4,2,1,3,1,2,2,2,2,1,4,2,1
+Legion
+3,3,1,1,3,2,3,4,2,3,1,4,2,3,3,4,1,4,2,1
+Kaidan
+Attracted to a caring, supportive personality that aligns with his moral compass and intellectual curiosity. Someone who shares his cautious and collaborative nature.
+Romance Results: 3,2,2,4,1,3,3,1,2,4,3,1,2,1,2,2,2,3,4,1
+Ashley
+Attracted to someone dependable yet challenging. A strong moral compass with an adventurous side would complement her fiery personality.
+Romance Results: 4,1,1,1,1,2,2,3,2,1,4,3,1,2,3,4,1,1,3,2
+James
+Attracted to someone adventurous and independent, who can match his energetic nature while challenging him emotionally.
+Romance Results: 2,2,3,1,4,3,1,3,1,3,2,4,3,4,1,2,2,4,1,4
+EDI
+EDI pairs well with someone who is emotionally intelligent, supportive, and willing to embrace new perspectives.
+3,2,1,4,1,2,1,4,3,1,1,3,1,4,4,2,1,2,4,3
+
+Joker
+Joker matches well with someone who is grounded, dependable, and balances his adventurous and playful spirit.
+1,1,1,1,2,2,2,2,3,2,4,2,1,2,3,2,2,3,2,1
+
+Mordin (Romance)
+Mordin would match with someone empathetic, warm, and capable of handling his sharp intellect and ethical depth.
+4,1,3,2,1,1,1,3,3,4,2,3,1,4,1,2,1,1,4,2
+
+Romance Pairing for Tali
+Tali matches with someone curious, compassionate, and open-minded, yet grounded enough to provide stability and encouragement. A pairing like Garrus or EDI complements her well.
+Romance Results for Tali’s match: 4,1,1,1,1,3,1,2,3,1,1,4,1,1,3,2,1,4,1,3
+
+Cortez matches with someone strong, grounded, and encouraging, yet emotionally available. A pairing like Kaidan or Paragon Shepard works beautifully.
+Romance Results for Cortez’s match: 1,2,3,2,1,1,1,2,3,2,1,4,1,2,3,2,2,2,1,1
+
+Traynor pairs well with a calm, structured, and intellectually curious personality.
+Results for Traynor Romance Match:
+3,1,1,2,1,1,3,4,2,2,3,3,2,4,3,2,1,4,2,1
+
+Results for Gabriella Romance Match:
+Gabriella pairs well with someone adventurous, lighthearted, and supportive.
+3,2,3,1,3,3,2,2,1,3,3,1,3,1,4,2,3,1,3,3
+
+Kenneth pairs well with someone outgoing, supportive, and emotionally balanced.
+Results for Kenneth Romance Match:
+3,3,3,1,3,2,1,2,1,2,2,2,3,1,3,2,3,1,3,3
+
+Samara is drawn to someone calm, principled, and empathetic, with a strong moral compass and inner strength.
+A person who values justice, peace, and balance appeals to her deeply.
+Emotional intelligence and the ability to navigate moral dilemmas gracefully are key traits.
+4, 1, 3, 1, 1, 1, 1, 1, 2, 1, 3, 1, 1, 2, 2, 4, 2, 2, 2, 1, 1, 1, 1, 1, 1
+
+Zaeed respects strength, pragmatism, and decisiveness. A partner who can handle action, takes risks, and is resilient would earn his admiration.
+He admires someone who takes charge and faces danger head-on.
+Practicality, independence, and a no-nonsense approach resonate with his personality.
+1, 2, 4, 3, 2, 3, 2, 3, 1, 2, 3, 3, 3, 1, 3, 1, 3, 1, 1, 4, 2, 3, 2, 3, 3
+
+Javik values strength, intelligence, and legacy. A partner who is capable, thoughtful, and respectful of history or structure would appeal to him.
+He seeks someone who embodies both intellect and competence, while also having a tactical mind.
+A sense of responsibility and the ability to stand firmly by one's values are essential to attract Javik.
+4, 2, 2, 1, 2, 3, 2, 1, 2, 2, 3, 2, 2, 2, 2, 4, 1, 2, 2, 1, 1, 1, 1, 1, 1
+
+David Anderson is drawn to grounded, understanding individuals who balance compassion with decisiveness. He values someone who is independent yet supportive and can navigate challenges calmly.
+2, 1, 1, 3, 1, 2, 1, 1, 2, 1, 2, 1, 1, 2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 2, 1
+
+Dr. Chakwas seeks someone thoughtful, caring, and reliable, who balances emotional depth with an open mind.
+3, 2, 1, 2, 2, 3, 3, 4, 2, 1, 2, 1, 3, 1, 1, 3, 3, 3, 1, 2, 4, 3, 1, 2, 3
+
+Hackett is drawn to partners with strength of character, emotional depth, and intellectual curiosity—someone who can challenge his perspective while sharing his sense of responsibility.
+2, 3, 2, 2, 3, 2, 2, 1, 2, 3, 1, 2, 2, 3, 2, 1, 2, 3, 2, 4, 1, 3, 2, 3, 4
+
+TIM Attracted to: A pragmatic, capable individual who understands long-term vision but can temper their cold logic with emotional intelligence and human connection.
+Romantic Matches: 4, 2, 3, 3, 3, 2, 2, 3, 2, 2, 4, 4, 2, 3, 3, 3, 1, 1, 4, 4, 3, 4, 4, 2, 3.
+
+Udina A partner who provides stability and emotional balance, someone capable of offering warmth and empathy where Udina’s rigidity fails.
+Romantic Matches: 3, 4, 3, 1, 2, 3, 1, 4, 3, 4, 1, 3, 1, 2, 1, 1, 2, 3, 3, 4, 4, 1, 4, 4, 3
+
+Aria A confident and bold individual, capable of keeping up with Aria’s energy while adding an emotional balance or unique perspective.
+Romantic Matches: 3, 2, 4, 3, 3, 3, 1, 4, 4, 2, 2, 4, 3, 1, 3, 1, 2, 2, 2, 4, 4, 2, 3, 1, 2.

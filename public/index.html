@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" class="h-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mass Effect Personality Test</title>
+		<meta
+			name="description"
+			content="With this personality test, find which character you resemble the most (and the one with which you would have a great romance...) in the Mass Effect original trilogy." />
+		<!-- Use static CSS from /public/build/tailwind.css -->
+		<link rel="stylesheet" href="./build/tailwind.css" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
+			rel="stylesheet" />
+	</head>
+
+	<body
+		class="electrolize-regular text-brown-50 min-h-screen w-screen min-w-40 overflow-x-hidden bg-gray-1000">
+		<main class="bg-sf">
+			<div
+				class="relative w-full"
+				style="
+					background: radial-gradient(
+							ellipse 120% 80% at bottom,
+							#e8e2a177 0%,
+							#a07a5288 40%,
+							rgba(31, 31, 31, 0.8) 70%
+						)
+						no-repeat;
+					background-position: 0% 100%;
+					animation: pulse 10s ease-in infinite;
+				">
+				<div
+					class="flex min-h-screen w-full flex-col justify-center overflow-hidden bg-brown-900/50 backdrop-blur-lg">
+					<h1
+						class="absolute left-3 top-4 w-[calc(100%-1.5rem)] text-xl font-bold text-green-600 sm:left-8 sm:top-20 sm:w-full sm:text-2xl lg:left-[min(24rem,25%)]">
+						Which Mass Effect Character Are You ?
+					</h1>
+					<div class="min-h-screen flex-grow pt-28 sm:pt-36" id="app"></div>
+				</div>
+			</div>
+		</main>
+		<script type="module" lang="ts">
+			import { createApp } from 'vue';
+			import { createPinia } from 'pinia';
+			import router from './router/index.ts';
+			import App from './App.vue';
+
+			// const router = createRouter();
+			const pinia = createPinia();
+			const app = createApp(App).use(router).use(pinia);
+			app.mount('#app');
+
+			// const main = document.querySelector('main');
+			// main.style = `background-size: ${document.body.scrollHeight * 2}px ${document.body.scrollHeight}px`;
+		</script>
+	</body>
+</html>

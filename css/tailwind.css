@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.electrolize-regular {
+		font-family: 'Electrolize', 'IBM Plex sans', sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+}
+
+@layer components {
+	.bg-sf {
+		background-image: url('../img/background.jpg?as=webp&width=800');
+		background-size: cover;
+	}
+	.btn {
+		@apply border border-brown-100 from-green-600/50 via-green-600/30 to-green-800/10 p-3 hover:border-green-600 hover:bg-gradient-to-t hover:text-green-400 disabled:opacity-25 disabled:hover:border-brown-100 disabled:hover:bg-none disabled:hover:text-brown-100;
+	}
+}
+
+@layer utilities {
+	.sf-corner-bot {
+		clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0% 100%);
+	}
+	.sf-corner-half {
+		clip-path: polygon(
+			1.5rem 0,
+			100% 0,
+			100% calc(100% - 1.5rem),
+			calc(100% - 1.5rem) 100%,
+			0 100%,
+			0 1.5rem
+		);
+	}
+	.sf-corner-half-inset {
+		clip-path: polygon(
+			1.5rem 0,
+			100% 0,
+			100% calc(100% - 1.5rem),
+			calc(100% - 1.5rem) 100%,
+			0 100%,
+			0 1.5rem,
+			1.5rem 0,
+			1.5rem 0.25rem,
+			0.25rem 1.5rem,
+			0.25rem calc(100% - 0.25rem),
+			calc(100% - 1.5rem - 0.25rem) calc(100% - 0.25rem),
+			calc(100% - 0.25rem) calc(100% - 1.5rem - 0.25rem),
+			calc(100% - 0.25rem) 0.25rem,
+			1.5rem 0.25rem,
+			1.5rem 0.25rem
+		);
+	}
+	.sf-corner {
+		clip-path: polygon(
+			1.5rem 0,
+			calc(100% - 1.5rem) 0,
+			100% 1.5rem,
+			100% calc(100% - 1.5rem),
+			calc(100% - 1.5rem) 100%,
+			1.5rem 100%,
+			0 calc(100% - 1.5rem),
+			0 1.5rem
+		);
+	}
+	.sf-corner-inset {
+		clip-path: polygon(
+			1.5rem 0,
+			calc(100% - 1.5rem) 0,
+			100% 1.5rem,
+			100% calc(100% - 1.5rem),
+			calc(100% - 1.5rem) 100%,
+			1.5rem 100%,
+			0 calc(100% - 1.5rem),
+			0 1.5rem,
+			1.5rem 0,
+			calc(1.5rem + 0.25rem) 0.25rem,
+			0.25rem calc(1.5rem + 0.25rem),
+			0.25rem calc(100% - 1.5rem - 0.25rem),
+			calc(1.5rem + 0.25rem) calc(100% - 0.25rem),
+			calc(100% - 1.5rem - 0.25rem) calc(100% - 0.25rem),
+			calc(100% - 0.25rem) calc(100% - 1.5rem - 0.25rem),
+			calc(100% - 0.25rem) calc(1.5rem + 0.25rem),
+			calc(100% - 0.25rem - 1.5rem) 0.25rem,
+			1.5rem 0.25rem
+		);
+	}
+	.scan-line {
+		background-image: url('../img/scan.webp');
+		background-repeat: repeat;
+	}
+	@media (min-width: 640px) {
+		/* .sf-corner {
+			clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 3rem), calc(100% - 3rem) 100%, 0% 100%);
+		} */
+	}
+}

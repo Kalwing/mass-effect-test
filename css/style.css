@@ -1,0 +1,175 @@
+.pic-1 {
+	background-image: url('../public/img/pic/shepardP.png?as=webp&width=200');
+	background-size: cover;
+}
+
+.pic-2 {
+	background-image: url('../public/img/pic/shepardR.png?as=webp&width=200');
+	background-size: cover;
+}
+
+.pic-3 {
+	background-image: url('../public/img/pic/liara.webp?width=200');
+	background-size: cover;
+}
+
+.pic-4 {
+	background-image: url('../public/img/pic/jack.webp?width=200');
+	background-size: cover;
+}
+
+.pic-5 {
+	background-image: url('../public/img/pic/wrex.webp?width=200');
+	background-size: cover;
+}
+
+.pic-6 {
+	background-image: url('../public/img/pic/garrus.webp?width=200');
+	background-size: cover;
+}
+
+.pic-7 {
+	background-image: url('../public/img/pic/grunt.webp?width=200');
+	background-size: cover;
+}
+
+.pic-8 {
+	background-image: url('../public/img/pic/thane.webp?width=200');
+	background-size: cover;
+}
+
+.pic-9 {
+	background-image: url('../public/img/pic/kasumi.webp?width=200');
+	background-size: cover;
+}
+
+.pic-10 {
+	background-image: url('../public/img/pic/jacob.webp?width=200');
+	background-size: cover;
+}
+
+.pic-11 {
+	background-image: url('../public/img/pic/miranda.webp?width=200');
+	background-size: cover;
+}
+
+.pic-12 {
+	background-image: url('../public/img/pic/legion.webp?width=200');
+	background-size: cover;
+}
+
+.pic-13 {
+	background-image: url('../public/img/pic/kaidan.webp?width=200');
+	background-size: cover;
+}
+
+.pic-14 {
+	background-image: url('../public/img/pic/ashley.webp?width=200');
+	background-size: cover;
+}
+.pic-15 {
+	background-image: url('../public/img/pic/james.webp?width=200');
+	background-size: cover;
+}
+.pic-16 {
+	background-image: url('../public/img/pic/EDI.webp?width=200');
+	background-size: cover;
+}
+.pic-17 {
+	background-image: url('../public/img/pic/joker.png?as=webp&width=200');
+	background-size: cover;
+}
+.pic-18 {
+	background-image: url('../public/img/pic/mordin.webp?width=200');
+	background-size: cover;
+}
+.pic-19 {
+	background-image: url('../public/img/pic/tali.png?as=webp&width=200');
+	background-size: cover;
+}
+.pic-20 {
+	background-image: url('../public/img/pic/cortez.jpg?as=webp&width=200');
+	background-size: cover;
+}
+.pic-21 {
+	background-image: url('../public/img/pic/traynor.png?as=webp&width=200');
+	background-size: cover;
+}
+.pic-22 {
+	background-image: url('../public/img/pic/gabby.webp?width=200');
+	background-size: cover;
+}
+.pic-23 {
+	background-image: url('../public/img/pic/kenneth.webp?width=200');
+	background-size: cover;
+}
+.pic-24 {
+	background-image: url('../public/img/pic/samara.webp?width=200');
+	background-size: cover;
+}
+.pic-25 {
+	background-image: url('../public/img/pic/zaeed.png?as=webp&width=200');
+	background-size: cover;
+}
+.pic-26 {
+	background-image: url('../public/img/pic/javik.webp?width=200');
+	background-size: cover;
+}
+.pic-27 {
+	background-image: url('../public/img/pic/anderson.webp?width=200');
+	background-size: cover;
+}
+.pic-28 {
+	background-image: url('../public/img/pic/chakwas.png?as=webp&width=200');
+	background-size: cover;
+}
+.pic-29 {
+	background-image: url('../public/img/pic/hackett.webp?width=200');
+	background-size: cover;
+}
+.pic-30 {
+	background-image: url('../public/img/pic/illusive_man.webp?width=200');
+	background-size: cover;
+}
+.pic-31 {
+	background-image: url('../public/img/pic/udina.webp?width=200');
+	background-size: cover;
+}
+.pic-32 {
+	background-image: url('../public/img/pic/aria.png?as=webp&width=200');
+	background-size: cover;
+}
+
+.next-enter-active,
+.next-leave-active {
+	transition:
+		opacity 0.5s ease,
+		transform 0.25s ease;
+}
+
+.next-enter-from {
+	opacity: 0;
+	transform: translateX(100%);
+}
+
+.next-leave-to {
+	opacity: 0;
+	transform: translateX(-50%);
+}
+
+.prev-enter-active,
+.prev-leave-active {
+	transition:
+		opacity 0.5s ease,
+		transform 0.25s ease;
+}
+
+.prev-enter-from {
+	opacity: 0;
+	transform: translateX(-50%);
+}
+
+.prev-leave-to {
+	opacity: 0;
+	transform: translateX(100%);
+}

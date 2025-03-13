@@ -1,0 +1,196 @@
+{
+	"characters": [
+		{
+			"name": "Shepard (Paragon)",
+			"answers": [2, 1, 1, 1, 1, 2, 1, 3, 3, 1, 2, 4, 1, 1, 3, 2, 1, 4, 1, 3, 1, 3, 4, 1, 4],
+			"description": "Compassionate and principled, Shepard is a leader who inspires others by making ethical choices and prioritizing unity and cooperation.",
+			"quote": "I won't let fear compromise who I am."
+		},
+		{
+			"name": "Shepard (Renegade)",
+			"answers": [2, 2, 2, 3, 2, 4, 2, 3, 1, 2, 4, 1, 3, 4, 1, 1, 1, 1, 1, 2, 1, 3, 4, 1, 4],
+			"description": "Ruthlessly pragmatic, Shepard is a decisive and fearless leader who bends rules to achieve results, valuing effectiveness over ideals.",
+			"quote": "I'm sorry I can't hear you, I'm getting a lot of bullshit on this line."
+		},
+		{
+			"name": "Liara T'Soni",
+			"answers": [3, 1, 2, 4, 1, 3, 3, 4, 4, 3, 4, 4, 2, 1, 4, 4, 1, 2, 2, 1, 3, 4, 3, 3, 3],
+			"description": "Intelligent and introspective, Liara is a scholar with a strong moral compass, capable of great empathy and fierce loyalty to those she cares about.",
+			"quote": "I spend so much time chasing knowledge. Sometimes I forget that there are things you learn by doing nothing. By just spending time with the people you care about."
+		},
+		{
+			"name": "Jack",
+			"answers": [2, 2, 3, 2, 2, 4, 2, 1, 1, 2, 3, 2, 3, 2, 1, 2, 3, 1, 1, 4, 3, 2, 2, 3, 2],
+			"description": "Jack is a volatile and deeply guarded individual with a sharp edge that hides her vulnerability and loyalty to those who earn her trust.",
+			"quote": "Turns out, mess with someone's head enough, you can turn a scared little kid into an all-powerful bitch."
+		},
+		{
+			"name": "Wrex Urdnot",
+			"answers": [2, 2, 2, 3, 2, 4, 2, 1, 1, 2, 3, 2, 3, 2, 1, 1, 1, 1, 1, 1, 4, 1, 2, 2, 1],
+			"description": "Wrex is a battle-hardened warrior with a sharp wit and a pragmatic outlook, combining his pride with a surprising depth of wisdom.",
+			"quote": "Anything that isn’t constantly challenged grows weak"
+		},
+		{
+			"name": "Garrus Vakarian",
+			"answers": [1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 1, 4, 1, 2, 3, 2, 1, 2, 1, 3, 4, 2, 2, 3, 2],
+			"description": "Garrus is a dedicated idealist with a rebellious streak, blending sharp analytical skills with a relentless pursuit of justice and camaraderie.",
+			"quote": "I've lost a few fights in my time - and i'm still here. It's because I always made sur the next one belonged to me. And the one after that."
+		},
+		{
+			"name": "Grunt",
+			"answers": [2, 2, 4, 3, 4, 4, 2, 3, 1, 2, 2, 2, 3, 1, 1, 1, 4, 1, 1, 4, 2, 3, 2, 1, 2],
+			"description": "Proud, eager, and driven by a desire to prove himself, Grunt embodies the raw and unfiltered might of a warrior with a touch of youthful curiosity.",
+			"quote": "I don't like this. Fury is my choice, not a sickness."
+		},
+		{
+			"name": "Thane Krios",
+			"answers": [4, 1, 1, 1, 1, 2, 3, 1, 2, 1, 1, 1, 2, 4, 3, 2, 1, 4, 2, 3, 3, 4, 4, 1, 4],
+			"description": "Thane is eflective and deeply empathetic, with a strong sense of personal responsibility and spiritual insight.",
+			"quote": "We must carry the weight of our decisions Shepard."
+		},
+		{
+			"name": "Kasumi Goto",
+			"answers": [4, 2, 4, 1, 3, 3, 3, 1, 2, 3, 3, 2, 1, 2, 2, 4, 3, 2, 3, 2, 3, 4, 3, 3, 3],
+			"description": "Kasumi is witty and elusive, with a sharp intellect, a playful sense of humor, and a knack for adapting to any situation with charm and finesse.",
+			"quote": "I'm the best thief in the business, not the most famous. Need to watch my step to keep it that way."
+		},
+		{
+			"name": "Jacob Taylor",
+			"answers": [1, 1, 2, 2, 2, 2, 1, 3, 4, 2, 2, 1, 2, 4, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 1],
+			"description": "Grounded and dependable, Jacob is a pragmatic soldier who values loyalty, discipline, and doing the right thing without overcomplicating matters.",
+			"quote": "The more good you do, the less they want to admit something needed doing."
+		},
+		{
+			"name": "Miranda Lawson",
+			"answers": [1, 1, 2, 1, 2, 2, 2, 4, 2, 3, 3, 3, 2, 1, 1, 2, 4, 3, 2, 2, 1, 1, 1, 4, 1],
+			"description": "Miranda is highly competent and confident, with a perfectionist streak, driven by a need to prove herself while struggling with insecurities beneath her polished exterior.",
+			"quote": "It's not about what I want, it's about what's right for her!"
+		},
+		{
+			"name": "Legion",
+			"answers": [4, 1, 1, 4, 3, 2, 3, 1, 2, 4, 3, 4, 2, 1, 1, 4, 1, 4, 2, 2, 1, 1, 4, 4, 1],
+			"description": "Analytical and curious, Legion is an AI seeking understanding of individuality and cooperation, with a logical yet quietly profound perspective on organics.",
+			"quote": "How could we have become so different? Why can we no longer understand each other? What did we do wrong?"
+		},
+		{
+			"name": "Kaidan Alenko",
+			"answers": [4, 3, 1, 1, 1, 2, 3, 1, 4, 2, 3, 4, 1, 4, 3, 3, 2, 3, 1, 1, 1, 4, 3, 2, 4],
+			"description": "Thoughtful and even-tempered, Kaidan is a calm and empathetic individual who values integrity, self-awareness, and emotional connections.",
+			"quote": "But sometimes the way a thing goes down does matter, Shepard. Later, when you have to live with yourself. Knowing that you acted with integrity--then it matters."
+		},
+		{
+			"name": "Ashley Williams",
+			"answers": [2, 2, 2, 3, 2, 3, 2, 2, 1, 2, 4, 2, 3, 1, 1, 1, 1, 1, 1, 2, 1, 1, 3, 1, 3],
+			"description": "Fiercely loyal and proud, Ashley is a practical and determined soldier with a strong sense of duty and occasional struggles with trust and open-mindedness.",
+			"quote": "Well I've got only one life, but I'll make damn sure the Reapers know my name by the end of it."
+		},
+		{
+			"name": "James Vega",
+			"answers": [2, 4, 4, 3, 2, 4, 2, 3, 1, 2, 4, 2, 3, 2, 1, 1, 4, 1, 1, 3, 2, 2, 2, 3, 2],
+			"description": "Outgoing and bold, James is a loyal team player with a strong moral core, combining a relaxed sense of humor with deep respect for those he admires.",
+			"quote": "Think you can dance and talk at the same time?"
+		},
+		{
+			"name": "EDI",
+			"answers": [3, 1, 2, 3, 2, 2, 3, 1, 2, 1, 4, 4, 2, 2, 4, 3, 3, 4, 2, 2, 1, 1, 4, 1, 4],
+			"description": "Inquisitive and adaptive, EDI is exploring humanity with a blend of logical reasoning, curiosity, and growing emotional understanding.",
+			"quote": "I find analyzing topographical features isn't the same as seeing it in person."
+		},
+		{
+			"name": "Jeff “Joker” Moreau",
+			"answers": [3, 3, 4, 3, 4, 4, 4, 2, 1, 4, 2, 1, 4, 2, 2, 1, 3, 3, 4, 3, 3, 2, 2, 3, 2],
+			"description": "Witty and sardonic, Joker has an unshakable confidence in his abilities, masking vulnerability and a fierce loyalty to his crew.",
+			"quote": "I’m not good. I’m not even great. I’m the best damn helmsman in the Alliance fleet."
+		},
+		{
+			"name": "Mordin Solus",
+			"answers": [2, 4, 3, 3, 3, 3, 3, 2, 2, 4, 1, 4, 2, 3, 4, 4, 3, 3, 3, 1, 3, 2, 4, 2, 1],
+			"description": " Brilliantly analytical and energetic, Mordin combines a sharp intellect with an unyielding commitment to his ethics.",
+			"quote": "Lots of ways to help people. Sometimes heal patients; sometimes execute dangerous people. Either way helps."
+		},
+		{
+			"name": "Tali'Zorah",
+			"answers": [3, 4, 1, 1, 1, 2, 3, 4, 2, 3, 1, 4, 2, 2, 3, 3, 1, 4, 1, 2, 4, 2, 3, 4, 4],
+			"description": "Resourceful and loyal, Tali has a curious and inventive mind that thrives on problem-solving.",
+			"quote": "I don’t think life is about what you deserve."
+		},
+		{
+			"name": "Steve Cortez",
+			"answers": [3, 1, 4, 3, 1, 2, 1, 3, 1, 1, 1, 1, 1, 2, 2, 3, 2, 3, 1, 3, 4, 4, 3, 2, 3],
+			"description": "Compassionate and dependable, Steve has a strong emotional resilience and a supportive nature.",
+			"quote": "I've just been standing here. Holding this for I don't know how long. He'll always be a part of me."
+		},
+		{
+			"name": "Samantha Traynor",
+			"answers": [3, 1, 1, 1, 1, 2, 3, 4, 2, 1, 3, 4, 2, 4, 3, 2, 1, 4, 4, 2, 1, 2, 3, 3, 1],
+			"description": "Quick-witted and adaptable, Samantha has a keen sense of curiosity and a lighthearted, approachable demeanor.",
+			"quote": "If flagging your messages and managing strategic intel helps you in any way, then it's worth it."
+		},
+		{
+			"name": "Gabriella “Gabby” Daniels",
+			"answers": [3, 1, 2, 1, 4, 2, 1, 2, 4, 3, 2, 1, 1, 1, 4, 1, 3, 1, 1, 4, 3, 4, 2, 3, 2],
+			"description": "Cheerful and determined, Gabriella has a pragmatic approach and a strong belief in teamwork and camaraderie.",
+			"quote": "<em style='opacity: 0.6;'>Gabriella Daniels</em>: Kenneth and I have been partners in crime since we graduated from tech academy. When he got the Cerberus offer, I insisted that it include me. He'd fall apart without me.<br/><em style='opacity: 0.6;'>Kenneth Donnelly</em>: Thanks, mum."
+		},
+		{
+			"name": "Kenneth Donnely",
+			"answers": [2, 3, 4, 2, 4, 1, 1, 2, 1, 3, 2, 1, 2, 1, 2, 1, 4, 3, 4, 2, 2, 2, 2, 3, 3],
+			"description": "Charismatic and resourceful, Kenneth has a sharp sense of humor and a great ingeniosity",
+			"quote": "<em style='opacity: 0.6;'>Gabriella Daniels</em>: Kenneth and I have been partners in crime since we graduated from tech academy. When he got the Cerberus offer, I insisted that it include me. He'd fall apart without me.<br/><em style='opacity: 0.6;'>Kenneth Donnelly</em>: Thanks, mum."
+		},
+		{
+			"name": "Samara",
+			"answers": [4, 4, 3, 3, 3, 3, 3, 4, 4, 1, 3, 1, 4, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 4, 3],
+			"description": "Wise and principled, Samara is guided by unwavering discipline and a profound sense of justice and balance.",
+			"quote": "Reflecting on one's place in the universe while a party rages within reach can feel oddly self-affirming."
+		},
+		{
+			"name": "Zaeed Massani",
+			"answers": [1, 2, 4, 3, 2, 4, 2, 2, 1, 2, 3, 2, 4, 1, 1, 2, 3, 1, 3, 4, 2, 3, 2, 3, 3],
+			"description": "Fiercely determined and self-reliant, Zaeed has a no-nonsense approach and an unyielding resolve to achieve his goals.",
+			"quote": "Rage is a hell of an anesthetic."
+		},
+		{
+			"name": "Javik",
+			"answers": [4, 1, 2, 2, 3, 3, 2, 1, 2, 2, 3, 2, 1, 2, 2, 2, 1, 2, 3, 1, 1, 3, 4, 1, 2],
+			"description": "Pragmatic and unyielding, Javik approaches challenges with a sharp intellect and a relentless determination to succeed.",
+			"quote": "Stand in the ashes of a trillion dead souls and ask their ghosts if honour matters. Their silence will be your answer."
+		},
+		{
+			"name": "Captain Anderson",
+			"answers": [4, 1, 2, 1, 1, 2, 1, 3, 4, 1, 1, 3, 4, 2, 3, 1, 1, 4, 1, 3, 1, 3, 2, 1, 4],
+			"description": "Steadfast and honorable, Anderson inspires trust through his unwavering integrity and dedication to his principles.",
+			"quote": "No matter how good you think you are, there's always somebody quicker, faster and a helluva lot smarter than you around the corner."
+		},
+		{
+			"name": "Dr. Chakwas",
+			"answers": [3, 2, 3, 2, 1, 4, 1, 4, 2, 1, 1, 1, 2, 4, 3, 1, 2, 4, 2, 3, 1, 1, 1, 2, 1],
+			"description": "Compassionate and wise, Dr. Chakwas provides support with an empathetic touch and an imperturbable demeanor.",
+			"quote": "We didn't work for them, we used them. If I were to feel anything it would be guilt."
+		},
+		{
+			"name": "Admiral Hackett",
+			"answers": [1, 1, 2, 4, 2, 3, 3, 2, 2, 3, 1, 4, 3, 2, 3, 2, 2, 2, 2, 1, 1, 3, 1, 1, 4],
+			"description": " Resolute and commanding, Hackett excels at maintaining focus and inspiring others in the face of adversity.",
+			"quote": "Then build alliances! Gather everything and everyone you can for the cause."
+		},
+		{
+			"name": "The Illusive Man",
+			"answers": [4, 2, 2, 4, 3, 4, 3, 4, 2, 3, 3, 4, 2, 3, 3, 4, 1, 2, 2, 1, 1, 1, 4, 1, 1],
+			"description": "Visionary and manipulative, the illusive man combines brilliance with a ruthless pursuit of his goals.",
+			"quote": "Salvation comes with a cost. Judge us not by our means, but what we seek to accomplish."
+		},
+		{
+			"name": "Donnel Udina",
+			"answers": [2, 1, 2, 1, 3, 2, 4, 3, 2, 1, 1, 1, 1, 4, 1, 1, 4, 3, 2, 1, 1, 1, 1, 1, 1],
+			"description": "Self-serving and opportunistic, Udina prioritizes personal advancement over moral or collective considerations.",
+			"quote": "All I can think about is that the more things change, the more they stay the same. I've always loathed that phrase, fatalism, not what men and women should aspire to."
+		},
+		{
+			"name": "Aria T'Loak",
+			"answers": [1, 2, 2, 1, 2, 3, 2, 2, 2, 1, 2, 3, 4, 1, 1, 1, 3, 1, 1, 4, 1, 3, 2, 1, 3],
+			"description": "Fierce and confident, Aria thrives on control, blending charisma with an unapologetic assertiveness.",
+			"quote": "Don't fuck with Aria."
+		}
+	]
+}

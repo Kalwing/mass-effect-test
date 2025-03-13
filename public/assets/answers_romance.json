@@ -1,0 +1,355 @@
+{
+	"characters": [
+		{
+			"name": "Shepard (Paragon)",
+			"looking_for": [2, 2, 2, 3, 2, 4, 2, 2, 1, 2, 3, 2, 3, 1, 1, 2, 1, 1, 1, 2, 1, 2, 2, 3, 2],
+			"weights": [
+				1, 0.4, 0.4, 0.8, 0.6, 0.8, 1, 1, 0.4, 0.4, 0.4, 0.4, 0.1, 5, 0.4, 0.8, 0.2, 0.1, 1, 0.4,
+				0.6, 1, 1, 1.4, 1
+			],
+			"description": "Shepard pairs well with someone resilient and strong. A person in need of someone who can bring understanding and stability to the relationship. They appreciate partners who are supportive but strong enough to challenge them constructively.",
+			"type": 2,
+			"goal": "*Jack* or renegade or Miranda or Garrus or Ashley"
+		},
+		{
+			"name": "Shepard (Renegade)",
+			"looking_for": [3, 1, 1, 1, 1, 2, 3, 4, 2, 1, 4, 1, 2, 1, 3, 4, 1, 4, 2, 1, 3, 4, 3, 3, 3],
+			"weights": [
+				1.2, 0.8, 0.4, 0.4, 0.8, 0.8, 1, 0.8, 0.4, 0.2, 1, 0.4, 0.1, 7, 0.4, 0.4, 0.4, 0.4, 0.8,
+				0.4, 0.6, 0.8, 1, 1, 1
+			],
+			"description": "Shepard pairs well with someone with depth, wisdom, and warmth, who can balance their intensity and ambition.",
+			"type": 1,
+			"goal": "*Liara* or Tali or Thane or Traynor"
+		},
+		{
+			"name": "Liara T'Soni",
+			"looking_for": [2, 2, 2, 1, 1, 3, 1, 3, 3, 1, 4, 1, 1, 4, 1, 1, 1, 2, 1, 3, 1, 3, 4, 1, 4],
+			"weights": [
+				1.2, 0.8, 0.6, 0.4, 0.8, 0.8, 1.2, 0.6, 0.6, 0.2, 0.8, 0.4, 0.2, 7, 0.2, 0.4, 0.8, 0.4, 1,
+				1, 0.6, 1, 0.6, 1, 1
+			],
+			"description": "Liara T'Soni pairs well with someone adventurous, courageous, and willing to take immense risks for the greater good, embodying her ideals of heroism.",
+			"type": 4,
+			"goal": "Shepard both"
+		},
+		{
+			"name": "Jack",
+			"looking_for": [3, 2, 1, 1, 3, 2, 1, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 1, 1, 3, 1, 3, 4, 1, 2],
+			"weights": [
+				1.2, 1.2, 0.4, 0.8, 1, 0.8, 1, 0.4, 0.4, 0.6, 0.8, 0.2, 0.1, 7, 0.6, 0.8, 0.8, 1.2, 1, 0.8,
+				0.4, 1, 1, 1.4, 1
+			],
+			"description": "Jack pairs well with someone empathetic, understanding, and able to defuse volatile situations while respecting her independence.",
+			"type": 1,
+			"goal": "Thomas or Shepard paragon"
+		},
+		{
+			"name": "Wrex Urdnot",
+			"looking_for": [4, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 4, 3, 2, 4, 2, 2, 4, 2, 1, 4, 4, 4, 4, 3],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 0.4, 0.8, 1, 1, 0.8, 0.8, 0.8, 0.4, 0.4, 7, 0.4, 0.8, 0.4, 0.2, 0.4, 0.8,
+				0.8, 1, 1, 1, 1
+			],
+			"description": "Wrex Urdnot is attracted to someone calm, wise, and forward-thinking, someone who can help ground him and share his vision for a better future.",
+			"type": 2,
+			"goal": "EDI or Tali or Liara or Samara"
+		},
+		{
+			"name": "Garrus Vakarian",
+			"looking_for": [3, 1, 1, 1, 1, 2, 3, 1, 2, 3, 4, 4, 2, 1, 3, 3, 3, 2, 4, 4, 4, 2, 3, 4, 4],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 0.8, 0.4, 1, 1, 0.4, 0.2, 0.6, 0.4, 0.2, 7, 0.2, 0.4, 0.6, 0.4, 0.4, 0.4,
+				1, 1, 1, 1, 1
+			],
+			"description": "Garrus Vakarian pairs well with someone loyal, resourceful, and sharing a knack for problem-solving with a touch of vulnerability he finds endearing.",
+			"type": 2,
+			"goal": "*Tali* or Kaidan or Gabby"
+		},
+		{
+			"name": "Grunt",
+			"looking_for": [2, 2, 4, 3, 4, 4, 2, 2, 1, 2, 2, 2, 3, 1, 1, 1, 4, 1, 1, 4, 2, 3, 2, 1, 2],
+			"weights": [
+				1.4, 0.8, 0.8, 2, 1, 0.8, 0.4, 1, 0.4, 0.1, 0.4, 0.4, 0.1, 7, 0.8, 0.4, 0.8, 0.8, 1, 0.4,
+				0.6, 0.8, 1, 1, 1
+			],
+			"description": "Grunt pairs well with someone fun-loving and bold—someone like himself who isn’t afraid of challenges but brings enthusiasm and energy to the relationship.",
+			"type": 1,
+			"goal": "*Grunt* or Joker or Wrex"
+		},
+		{
+			"name": "Thane Krios",
+			"looking_for": [4, 1, 1, 1, 1, 2, 1, 4, 4, 1, 3, 4, 3, 3, 3, 3, 2, 2, 1, 3, 4, 4, 3, 4, 3],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 1.2, 0.4, 0.6, 1.2, 0.8, 0.1, 0.4, 0.4, 0.2, 7, 0.4, 0.4, 1, 0.6, 1, 0.8,
+				0.4, 1, 1, 1, 1
+			],
+			"description": "Thane pairs well with someone quietly supportive, emotionally insightful, and able to share meaningful, profound connections.",
+			"type": 3,
+			"goal": "*Shepard Paragon* or Tali or Kaidan or Samara"
+		},
+		{
+			"name": "Kasumi Goto",
+			"looking_for": [1, 1, 2, 2, 2, 2, 1, 2, 4, 2, 4, 1, 4, 3, 4, 2, 4, 1, 1, 1, 2, 2, 2, 1, 1],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 1, 0.6, 0.8, 0.6, 0.4, 0.8, 0.6, 0.4, 0.4, 7, 0.6, 0.4, 0.6, 0.4, 0.8,
+				0.6, 1, 1, 1, 1, 1
+			],
+			"description": "Kasumi Goto pairs well with someone steady, kind, and practical, someone who appreciates her playful and clever nature without being overwhelmed by it. A person with great muscles.",
+			"type": 3,
+			"goal": "*Jacob* or renegade or Gabby"
+		},
+		{
+			"name": "Jacob Taylor",
+			"looking_for": [3, 1, 1, 2, 1, 2, 3, 3, 2, 3, 3, 4, 2, 2, 4, 2, 3, 3, 4, 3, 3, 4, 3, 1, 1],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 1, 0.6, 0.2, 1, 0.4, 0.1, 0.4, 0.6, 0.1, 7, 0.8, 0.6, 0.1, 0.6, 0.6, 0.4,
+				1, 1, 1, 1, 1
+			],
+			"description": "Jacob Taylor pairs well with someone who brings a spark of joy, humor, and cleverness to balance his steady and responsible demeanor. Someone warm, with a high sense of duty.",
+			"type": 2,
+			"goal": "*Tali* or Miranda or Chakwas"
+		},
+		{
+			"name": "Miranda Lawson",
+			"looking_for": [3, 2, 2, 1, 1, 2, 1, 2, 2, 1, 3, 1, 2, 1, 3, 2, 2, 4, 1, 1, 1, 1, 2, 1, 1],
+			"weights": [
+				0.4, 0.8, 0.6, 0.8, 0.4, 0.4, 1, 1, 0.4, 0.2, 0.4, 0.6, 0.2, 7, 0.8, 0.4, 0.4, 0.4, 0.8,
+				0.6, 1, 1, 1, 1, 1
+			],
+			"description": "Miranda Lawson pairs well with someone reliable, capable, and willing to challenge her without undermining her sense of control or competence.",
+			"type": 1,
+			"goal": "*Paragon* or Jacob or Ashley"
+		},
+		{
+			"name": "Legion",
+			"looking_for": [2, 1, 1, 1, 2, 2, 3, 1, 2, 4, 1, 4, 2, 3, 3, 3, 3, 4, 2, 2, 1, 2, 3, 1, 4],
+			"weights": [
+				1, 0.4, 0.8, 0.4, 0.8, 0.8, 1, 1.2, 0.6, 0.8, 0.4, 0.4, 0.6, 7, 0.8, 0.4, 1, 0.8, 0.2, 0.6,
+				1, 1, 1, 0.6, 1
+			],
+			"description": "Legion pairs well with someone analytical and curious, with a knack for challenging perspectives and offering unique insights into complex problems, enriching Legion's understanding of individuality and life.",
+			"type": 3,
+			"goal": "*Tali* or EDI or TIM"
+		},
+		{
+			"name": "Kaidan Alenko",
+			"looking_for": [3, 1, 1, 1, 1, 1, 3, 4, 2, 1, 3, 4, 2, 2, 3, 2, 2, 3, 1, 3, 1, 4, 4, 1, 4],
+			"weights": [
+				1, 1, 0.6, 0.4, 1, 0.8, 1, 1, 0.6, 0.2, 0.8, 0.4, 0.1, 7, 1, 0.4, 0.4, 0.8, 0.6, 0.4, 1, 1,
+				1, 1, 1
+			],
+			"description": "Kaidan pairs well with a caring, supportive personality that aligns with his moral compass and intellectual curiosity. Someone who shares his cautious and collaborative nature.",
+			"type": 2,
+			"goal": "*paragon* or Tali or Traynor"
+		},
+		{
+			"name": "Ashley Williams",
+			"looking_for": [2, 2, 2, 3, 2, 4, 2, 3, 1, 2, 3, 3, 3, 2, 1, 1, 1, 1, 1, 1, 1, 3, 4, 1, 1],
+			"weights": [
+				1, 1.4, 0.2, 0.4, 0.4, 0.6, 1, 0.6, 0.6, 1, 1, 0.2, 0.6, 7, 0.8, 0.4, 0.2, 0.4, 0.8, 0.8,
+				0.4, 1, 1, 1, 0.4
+			],
+			"description": "Ashley pairs well with someone dependable yet challenging. A strong moral compass with an adventurous side would complement her fiery personality.",
+			"type": 2,
+			"goal": "*Renegade* or Wrex or Traynor"
+		},
+		{
+			"name": "James Vega",
+			"looking_for": [2, 3, 4, 3, 4, 4, 2, 3, 1, 2, 4, 2, 3, 2, 1, 1, 3, 3, 1, 2, 3, 2, 2, 3, 3],
+			"weights": [
+				1.2, 0.8, 0.4, 0.4, 0.8, 0.8, 1, 0.8, 0.4, 0.2, 1, 0.4, 0.8, 7, 1.2, 0.6, 0.8, 0.8, 1.2,
+				0.4, 0.6, 0.8, 1, 1, 1
+			],
+			"description": "James pairs well with someone adventurous and independent, who can match his energetic nature while challenging him emotionally.",
+			"type": 2,
+			"goal": "*Renegade* or Zaeed or Joker or Miranda or vega"
+		},
+		{
+			"name": "EDI",
+			"looking_for": [3, 2, 1, 3, 4, 3, 4, 2, 1, 4, 2, 1, 3, 2, 2, 2, 3, 3, 4, 3, 3, 2, 2, 3, 2],
+			"weights": [
+				1, 0.4, 0.2, 0.4, 1, 0.8, 0.4, 1, 0.4, 1, 0.6, 0.4, 0.4, 7, 0.4, 0.4, 1.2, 0.4, 0.4, 1.2,
+				1.2, 1, 1, 1.2, 1.2
+			],
+			"description": "EDI pairs well with someone who display their emotions, supportive, and willing to embrace new perspectives.",
+			"type": 2,
+			"goal": "*Joker* or Traynor"
+		},
+		{
+			"name": "Jeff “Joker” Moreau",
+			"looking_for": [3, 1, 2, 1, 2, 2, 3, 1, 2, 3, 4, 4, 2, 2, 3, 3, 3, 4, 2, 2, 1, 1, 4, 1, 4],
+			"weights": [
+				1, 0.4, 0.6, 0.4, 1, 0.6, 1, 1, 0.8, 0.4, 1, 0.4, 0.4, 7, 0.4, 0.4, 1, 0.4, 0.6, 0.4, 1, 1,
+				1.4, 1.2, 1
+			],
+			"description": "Joker matches well with someone who is grounded, dependable, curious, and balances his adventurous and playful spirit.",
+			"type": 2,
+			"goal": "*EDI* or Tali or Kaidan"
+		},
+		{
+			"name": "Mordin Solus",
+			"looking_for": [4, 3, 1, 2, 3, 1, 1, 4, 4, 4, 3, 4, 1, 1, 1, 2, 1, 3, 4, 3, 1, 2, 4, 1, 1],
+			"weights": [
+				1, 0.6, 0.4, 0.4, 0.8, 0.4, 1, 1.4, 1, 1.4, 0.4, 1, 0.4, 7, 0.8, 0.4, 0.2, 1, 0.4, 0.4, 1.4,
+				1, 1.5, 1, 1.4
+			],
+			"description": "Mordin Solus would match with someone artistic and capable of handling his sharp intellect and ethical depth without challenging him.",
+			"type": 1
+		},
+		{
+			"name": "Tali'Zorah",
+			"looking_for": [4, 1, 1, 1, 1, 2, 1, 2, 2, 2, 1, 4, 1, 2, 3, 2, 1, 2, 1, 3, 4, 2, 1, 3, 1],
+			"weights": [
+				0.6, 0.4, 0.2, 0.4, 0.8, 0.8, 1, 1.2, 0.2, 0.2, 0.8, 0.8, 0.2, 7, 0.6, 0.4, 1, 0.4, 0.8, 1,
+				1, 0.6, 0.6, 1, 1
+			],
+			"description": "Tali'Zorah matches with someone curious, compassionate, and open-minded, yet grounded enough to provide stability and encouragement.",
+			"type": 2,
+			"goal": "*Garrus* or Paragon or Cortez"
+		},
+		{
+			"name": "Steve Cortez",
+			"looking_for": [3, 1, 3, 1, 1, 3, 1, 4, 3, 1, 1, 4, 1, 2, 3, 2, 1, 2, 1, 3, 1, 3, 1, 1, 1],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 2, 0.6, 1.2, 1, 0.6, 0.4, 0.8, 0.4, 0.8, 7, 0.8, 0.8, 0.2, 0.2, 0.6, 0.4,
+				1, 1, 1, 1, 1
+			],
+			"description": "Cortez matches with someone strong, grounded, and encouraging, yet emotionally available.",
+			"type": 2,
+			"goal": "*Paragon* or Traynor or Chakwas"
+		},
+		{
+			"name": "Samantha Traynor",
+			"looking_for": [3, 1, 1, 1, 4, 2, 3, 3, 2, 3, 3, 4, 2, 4, 4, 2, 1, 3, 2, 2, 1, 1, 4, 1, 1],
+			"weights": [
+				1, 0.2, 0.4, 0.8, 1, 0.4, 1, 1, 0.4, 0.2, 0.4, 0.6, 0.4, 7, 1, 0.6, 8, 0.4, 0.2, 0.4, 1, 1,
+				1, 1, 1
+			],
+			"description": "Traynor pairs well with a fun, structured, and intellectually curious personality.",
+			"type": 4,
+			"goal": "*Renegade* or Tali"
+		},
+		{
+			"name": "Gabriella “Gabby” Daniels",
+			"looking_for": [2, 3, 4, 2, 4, 1, 1, 2, 1, 3, 2, 4, 2, 1, 4, 1, 3, 3, 1, 3, 2, 4, 2, 3, 2],
+			"weights": [
+				1, 0.8, 0.6, 0.6, 1, 0.4, 1, 1, 0.4, 1, 0.4, 0.4, 1, 7, 0.8, 0.4, 0.4, 1, 0.8, 1, 1, 1, 1,
+				1, 1
+			],
+			"description": "Gabriella pairs well with someone smart, lighthearted, and supportive.",
+			"type": 1,
+			"goal": "*Kenneth* or Joker"
+		},
+		{
+			"name": "Kenneth Donnely",
+			"looking_for": [3, 1, 2, 1, 4, 2, 1, 2, 4, 3, 2, 1, 1, 1, 3, 2, 3, 1, 4, 3, 3, 4, 2, 3, 2],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 0.4, 0.4, 1, 1, 0.4, 0.4, 0.4, 0.4, 0.4, 7, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4,
+				1, 1, 1, 1, 1
+			],
+			"description": "Kenneth pairs well with someone outgoing, supportive, and emotionally balanced. A person able to call him out on his mistakes, while being empathetic.",
+			"type": 1,
+			"goal": "*Gabby* or Traynor"
+		},
+		{
+			"name": "Samara",
+			"looking_for": [4, 1, 2, 1, 1, 2, 1, 4, 2, 2, 3, 4, 1, 3, 3, 4, 2, 2, 1, 1, 1, 3, 1, 1, 2],
+			"weights": [
+				1, 0.8, 0.8, 0.8, 1, 0.4, 1.4, 1.4, 0.4, 0.2, 1.4, 0.4, 0.2, 7, 0.4, 0.4, 0.4, 0.4, 0.4,
+				0.8, 1, 1, 1, 1.4, 1
+			],
+			"description": "Samara pairs well with someone calm, principled, and empathetic, with a strong moral compass and inner strength. A person who values justice, peace, and balance appeals to her deeply.",
+			"type": 3,
+			"goal": "*Paragon* or Thomas or Javik or Liara"
+		},
+		{
+			"name": "Zaeed Massani",
+			"looking_for": [1, 2, 2, 3, 2, 4, 2, 2, 1, 2, 3, 2, 3, 1, 1, 2, 3, 1, 3, 4, 1, 3, 2, 3, 2],
+			"weights": [
+				0.4, 1, 0.6, 0.6, 0.4, 1, 1, 1, 1, 1.4, 0.4, 0.4, 0.6, 7, 0.4, 0.2, 0.4, 0.8, 1, 0.8, 0.8,
+				1, 1, 1, 1
+			],
+			"description": "Zaeed respects strength, pragmatism, and decisiveness. A partner with a no-nonsense approach and can handle action, takes risks, is independant and resilient would earn his admiration.",
+			"type": 1,
+			"goal": "*Javik* or Zaeed or Jack or Renegade or Wrex"
+		},
+		{
+			"name": "Javik",
+			"looking_for": [1, 1, 2, 1, 2, 3, 3, 4, 2, 2, 3, 4, 1, 1, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 4],
+			"weights": [
+				0.4, 0.8, 0.8, 0.4, 0.4, 0.4, 1, 1, 0.8, 1, 1.4, 0.6, 0.2, 7, 0.8, 0.8, 0.4, 0.4, 0.6, 1.4,
+				1, 1, 1, 1.4, 1
+			],
+			"description": "Javik values strength, intelligence, and legacy. He pairs well with someone who embodies both intellect and competence, while also having a tactical mind. A sense of responsibility and the ability to stand firmly by one's values are essential to attract Javik.",
+			"type": 1,
+			"goal": "*Hackett* or Javik or Samara"
+		},
+		{
+			"name": "Captain Anderson",
+			"looking_for": [4, 1, 1, 1, 1, 2, 1, 1, 4, 2, 3, 1, 1, 2, 3, 2, 2, 2, 1, 1, 1, 4, 1, 1, 1],
+			"weights": [
+				1.2, 0.4, 0.4, 0.6, 1, 0.8, 1.4, 1, 0.8, 0.4, 0.4, 0.2, 0.4, 7, 0.3, 0.4, 0.8, 0.8, 0.8,
+				0.8, 1, 1.2, 1, 1.2, 1
+			],
+			"description": "David Anderson pairs well with grounded, understanding individuals who balance compassion with decisiveness. He values someone who is independent yet supportive and can navigate challenges calmly.",
+			"type": 2,
+			"goal": "*Anderson* or Gabby or Paragon or Kaidan or Traynor"
+		},
+		{
+			"name": "Dr. Chakwas",
+			"looking_for": [3, 2, 1, 4, 1, 1, 3, 4, 4, 3, 4, 1, 3, 2, 3, 3, 2, 3, 1, 3, 4, 4, 1, 2, 3],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 1.2, 0.8, 1, 1, 0.4, 0.6, 0.8, 0.6, 0.8, 7, 0.6, 0.4, 0.4, 0.4, 0.8, 1, 1,
+				1, 1, 1, 1
+			],
+			"description": "Karin Chakwas pairs well with someone thoughtful, caring, and reliable, who balances emotional depth with an open mind.",
+			"type": 2,
+			"goal": "*Liara* or Traynor or Cortez"
+		},
+		{
+			"name": "Admiral Hackett",
+			"looking_for": [1, 1, 2, 2, 2, 3, 1, 1, 2, 1, 3, 4, 1, 2, 1, 2, 1, 4, 1, 1, 1, 2, 4, 1, 1],
+			"weights": [
+				0.4, 2, 0.6, 0.6, 1, 1, 0.8, 1, 1, 0.4, 2, 0.4, 0.2, 7, 1, 0.4, 1, 0.8, 0.8, 2, 1, 1, 1,
+				1.2, 0.8
+			],
+			"description": "Hackett pairs well with a partner with strength of character, emotional depth, and intellectual curiosity—someone who can challenge his perspective while sharing his sense of responsibility and duty.",
+			"type": 1,
+			"goal": "*Tali* or Mordin or Hackett or Liara or Javik"
+		},
+		{
+			"name": "The Illusive Man-",
+			"looking_for": [4, 2, 2, 4, 3, 3, 3, 4, 2, 3, 3, 4, 2, 3, 3, 4, 1, 2, 2, 1, 1, 1, 4, 1, 1],
+			"weights": [
+				1, 1, 1, 0.4, 0.8, 0.8, 1.4, 1, 0.8, 0.4, 1, 0.8, 0.4, 7, 0.4, 0.8, 0.4, 0.4, 0.8, 0.8, 1.2,
+				1.2, 1, 1.2, 1.2
+			],
+			"description": "The illusive man pairs well with a pragmatic, capable individual who understands long-term vision and tolerate their cold logic. Mostly himself.",
+			"type": 3,
+			"goal": "*The illusive man* or Javik or udina"
+		},
+		{
+			"name": "Donnel Udina",
+			"looking_for": [3, 1, 1, 1, 1, 3, 1, 3, 3, 4, 1, 3, 1, 1, 2, 3, 2, 3, 2, 3, 4, 4, 3, 4, 3],
+			"weights": [
+				1, 0.4, 0.4, 0.4, 1, 0.4, 1, 1, 0.4, 0.8, 0.6, 0.4, 0.4, 7, 0.4, 0.6, 0.6, 0.8, 0.4, 0.8, 1,
+				1.4, 1.2, 1, 1
+			],
+			"description": "Donnel Udina pairs well with a partner who provides stability and emotional balance, someone capable of offering warmth and empathy where Udina’s rigidity fails.",
+			"type": 1,
+			"goal": "*Liara* or Cortez or Gabby"
+		},
+		{
+			"name": "Aria T'Loak",
+			"looking_for": [2, 2, 4, 3, 1, 4, 1, 2, 1, 2, 4, 2, 3, 1, 1, 1, 3, 3, 1, 4, 4, 2, 3, 1, 2],
+			"weights": [
+				1, 1, 0.4, 0.4, 1, 0.8, 1, 1, 0.4, 0.4, 0.4, 0.6, 0.6, 7, 0.8, 0.8, 0.4, 0.8, 0.8, 0.4, 1,
+				1, 1, 1.2, 1.4
+			],
+			"description": "Aria T'Loak pairs well with a confident and bold individual, capable of keeping up with Aria’s energy while adding an emotional balance or unique perspective.",
+			"type": 1,
+			"goal": "*Aria* or ashley"
+		}
+	]
+}

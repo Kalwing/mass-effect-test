@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "es2020",
+		"noImplicitAny": true,
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"moduleResolution": "bundler",
+		"outDir": "../",
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"allowImportingTsExtensions": true
+	},
+	"include": ["./public/*", "./public/*/*"],
+	"exclude": []
+}
